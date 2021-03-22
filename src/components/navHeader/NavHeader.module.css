@@ -1,0 +1,22 @@
+.nav {
+  width: 100vw;
+  height: 10vh;
+  background-color: rgba(0, 0, 0, 0.602);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  color: white;
+}
+.nav__label {
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding-right: 10px;
+}
+.nav__logo__wrapper {
+  height: 40px;
+  width: 50px;
+}
+.nav__logo {
+  height: inherit;
+}

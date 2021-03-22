@@ -1,0 +1,31 @@
+.incomeExpenseContainer {
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+  box-shadow: var(--box-shadow);
+  padding: 20px;
+  display: flex;
+  margin: 10px 0;
+  width: inherit;
+}
+.incomeExpenseContainer > div {
+  flex: 1;
+  text-align: center;
+}
+
+.incomeExpenseContainer > div:first-of-type {
+  border-right: 1px solid #dedede;
+}
+.moneyplus {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin: 5px 0;
+  color: #2cb60a;
+  font-weight: bold;
+}
+.moneyminus {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin: 5px 0;
+  color: #df1818;
+  font-weight: bold;
+}
